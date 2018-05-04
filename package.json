@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "frisby": "^2.0.5",
+    "jest": "^22.4.3"
+  }
+}
