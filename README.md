@@ -1,12 +1,12 @@
 # FrisbyJS Tests
 
-Before test, Node.js must be downloaded.
+Before test, Node.js must be installed on computer.
 
 After project downloaded, you can be able to perform tests
 
-After downloading the project, you can perform the test by following the steps below. (Oroject can be download by command line => git clone https://github.com/selimcagli/FrisbyJS_Test.git)
+After downloading the project, you can perform the test by following the steps below. (Project can be download by command line => git clone https://github.com/selimcagli/FrisbyJS_Test.git)
 
-Tests can be perform 2 way
+Tests can be perform in 2 way
 1. By shell script
      - SetupAndRunTests.sh
           - Run RunTests.sh shellscript is sufficient if you want to run the test again after installation
