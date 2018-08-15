@@ -1,21 +1,23 @@
 # FrisbyJS Tests
 
-Test adımlarına başlamadan önce bilgisayarda node.js kurulu olmalıdır.
+Before test, Node.js must be downloaded.
 
-Projeyi indirdikten sonra aşağıdaki adımları izleyerek testi gerçekleştirebilirsiniz. (Proje Komut satırı kullanılarak indirilebilir  => git clone https://github.com/selimcagli/FrisbyJS_Test.git)
+After project downloaded, you can be able to perform tests
 
-Testler 2 şekilde yapılabilir
-1. Proje içirisindeki ShellScriptler çalıştırılarak. 
+After downloading the project, you can perform the test by following the steps below. (Oroject can be download by command line => git clone https://github.com/selimcagli/FrisbyJS_Test.git)
+
+Tests can be perform 2 way
+1. By shell script
      - SetupAndRunTests.sh
-          - Kurulumlardan sonra tekrar test çalıştırılmak istendiğinde ise RunTests.sh shellscript in çalıştırılması yeterlidir 
+          - Run RunTests.sh shellscript is sufficient if you want to run the test again after installation
 
-2. Aşağıdaki Yöntemler sırası ile uygulanarak.
+2. Applying the fallowing methods in order.
 
--	Öncelikle frisby kütüphanesinin  2.0.5 versiyonunu npm aracılığı indirmek gerekiyor. Frisby kütüphanesini indirmek için, projenin root klasörü üzerinde, aşağıdaki komut u çalıştırmak yeterlidir.
+-	First you need to download frisby@2.0.5 by npm. To download Frisby library, it is enough to run the following command on root directory of project.
      - npm install frisby@2.0.5
 
--	Proje "jest" kütüphanesi kullanılarak koşulmalıdır. "jest" kütühanesi aşağıdaki komut kullanılarak indirilebilir   
+-	The project must be run using the "jest" library. "jest" library can be downloaded using the command below   
      - npm install jest
 
--	Testi çalıştırmak için Projenin root klasöründen /node_modules/.bin/ klasöründe aşağıdaki komut satırını çalıştırmak yeterlidir.
+-	The command below must be run on /node_modules/.bin/ directory.
      -	./jest
