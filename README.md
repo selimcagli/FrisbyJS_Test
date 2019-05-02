@@ -11,7 +11,7 @@ Tests can be perform in 2 way
      - SetupAndRunTests.sh
           - Run RunTests.sh shellscript is sufficient if you want to run the test again after installation
 
-2. Applying the fallowing methods in order.
+2. Applying the following methods in order.
 
 -	First you need to download frisby@2.0.5 by npm. To download Frisby library, it is enough to run the following command on root directory of project.
      - npm install frisby@2.0.5
